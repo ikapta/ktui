@@ -3,7 +3,7 @@ import { defineConfig } from 'tsup'
 export default defineConfig((options) => {
   return {
     name: 'nui',
-    entry: ['src/index.ts'],
+    entry: ['src/index.tsx'],
     format: ['cjs', 'esm'],
     splitting: false,
     sourcemap: true,
